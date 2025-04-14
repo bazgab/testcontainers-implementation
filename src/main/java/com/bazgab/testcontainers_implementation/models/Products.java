@@ -18,7 +18,9 @@ public class Products {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
+
     private String hardware_type;
+
     private String hardware_model;
 
 }
